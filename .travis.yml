@@ -1,7 +1,7 @@
 language: python
-python:  
+python:
   - "3.6.4"
   - "3.6.5"
   - "3.7-dev"
 
-script:  export PYTHONPATH=$HOME/dirWithScripts/:$PYTHONPATH;  python3 tests/test_math_functions_solution.py
+script: export PYTHONPATH=$HOME/dirWithScripts/:$PYTHONPATH;  python3 tests/test_math_functions.py

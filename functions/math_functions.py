@@ -5,7 +5,7 @@ PI = math.pi
 
 def area_of_circle(radius):
     """ determines the area of a circle with a 'radius' input """
-    return radius
+    return None if radius <= 0 else PI * radius ** 2
 
 def surface_area_of_cube(side):
     """ determines the surface area of a cube with a 'side' input """
