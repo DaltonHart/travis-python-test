@@ -9,4 +9,4 @@ def area_of_circle(radius):
 
 def surface_area_of_cube(side):
     """ determines the surface area of a cube with a 'side' input """
-    return side
+    return None if side <= 0 else 6 * side ** 2 
